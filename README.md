@@ -15,7 +15,7 @@ https://www.amazon.co.jp/dp/4797398892
 2019/12/21～
 
 
-## KWL表も使ってみるか
+## KWL表
 https://studyhacker.net/kwl-reading
 
 ### K(知っていること)
