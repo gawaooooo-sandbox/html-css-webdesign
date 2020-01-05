@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>ブロック要素でグループ分け</title>
+    </head>
+    <body>
+        <!-- ページ上部のheader部分 -->
+        <header>
+            <h1>ページタイトル</h1>
+            <!-- ナビゲーションメニュー -->
+            <nav>
+                <ul>
+                    <li><a href="#">サービス紹介</a></li>
+                    <li><a href="#">料金</a></li>
+                    <li><a href="#">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- ページのメインコンテンツ部分を作るmain -->
+        <main>
+            <!-- 読み物・記事の部分 -->
+            <article>
+                <h2>記事のタイトル</h2>
+                <p>最新のスマートフォン情報！新機種が発表されましたね！</p>
+            </article>
+            <!-- テーマを持ったグループを作るsection -->
+            <section>
+                <h2>その他のおすすめ記事</h2>
+                <ul>
+                    <li>
+                        <a href="#">スマートウォッチって使える？使えない？</a>
+                    </li>
+                    <li>
+                        <a href="#">ランニングにはこのガジェットがおすすめ？</a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <!-- メインコンテンツではない、補足情報aside -->
+        <aside>
+            <h3>中の人ってこんな人</h3>
+            <p>
+                このWebサイトで情報を発信している○です。よろしくお願いします！
+            </p>
+        </aside>
+        <!-- ページ下部のフッター部分 -->
+        <footer>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+            <p>Copyright 2019 ○</p>
+        </footer>
+
+        <!-- 意味を持たないブロック要素を作るdiv -->
+        <div>
+            <img src="phone1.jpg" alt="電話画像" />
+            <p>画面を正面からみた画像</p>
+        </div>
+        <div>
+            <img src="phone2.jpg" alt="電話画像2" />
+            <p>3種類のカラーバリーエーション</p>
+        </div>
+    </body>
+</html>
