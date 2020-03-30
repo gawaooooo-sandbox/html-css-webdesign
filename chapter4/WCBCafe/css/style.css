@@ -106,9 +106,12 @@ img {
 }
 
 #home {
-  background-image: url(../images/main-bg.jpg);
+  /* background-image: url(../images/main-bg.jpg);
   background-color: #0bd;
-  background-blend-mode: hard-light;
+  background-blend-mode: hard-light; */
+
+  /* 明るい黄緑から明るいピンクへのグラデーション */
+  background-image: linear-gradient(#c9ffbf, #ffafbd);
   /* ビューポート幅を基準とした割合(100%) */
   min-height: 100vh;
 }
