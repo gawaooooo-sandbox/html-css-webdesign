@@ -111,7 +111,13 @@ img {
   background-blend-mode: hard-light; */
 
   /* 明るい黄緑から明るいピンクへのグラデーション */
-  background-image: linear-gradient(#c9ffbf, #ffafbd);
+  /* background-image: linear-gradient(#c9ffbf, #ffafbd); */
+
+  /* 背景画像にグラデーションカラーを重ね合わせる */
+  background-image: url(../images//main-bg.jpg),
+    linear-gradient(#c9ffbf, #ffafbd);
+  background-blend-mode: luminosity;
+
   /* ビューポート幅を基準とした割合(100%) */
   min-height: 100vh;
 }
