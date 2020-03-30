@@ -97,3 +97,21 @@ img {
 .button:hover {
   background: #0090aa;
 }
+
+/* 大きな背景画像 */
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#home {
+  background-image: url(../images/main-bg.jpg);
+  /* ビューポート幅を基準とした割合(100%) */
+  min-height: 100vh;
+}
+
+#home .page-title {
+  /* TODO: .page-titleでuppercaseにしてここで戻す？ */
+  text-transform: none;
+}
