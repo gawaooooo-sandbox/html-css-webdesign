@@ -29,3 +29,27 @@ img {
   width: 210px;
   margin-top: 14px;
 }
+
+.main-nav {
+  display: flex;
+  /* ルート要素(html)のサイズを基準に計算される単位
+      ブラウザーの設定がデフォルトのままであれば、1rem=16px */
+  font-size: 1.25rem;
+  /* 大文字、小文字、全角文字への変換を指定する際に使用 
+  @see https://developer.mozilla.org/ja/docs/Web/CSS/text-transform */
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+
+.main-nav li {
+  margin-left: 36px;
+}
+
+.main-nav a {
+  color: #432;
+}
+
+.main-nav a:hover {
+  color: #0bd;
+}
